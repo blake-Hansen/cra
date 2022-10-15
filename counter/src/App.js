@@ -3,10 +3,7 @@ import './App.css';
 
 function App() {
   const [count , setCount] = useState(0);
-  const addHandler = (event) => {
-    event.preventDefault()
-    setCount(()=> count + event.target.value)
-  }
+  
   return (
     <div className="App">
      <h1>Counter</h1>

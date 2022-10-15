@@ -11,6 +11,11 @@
 }
 button{
   margin:10px;
+  width:40px;
+  height: 40px;
+  border: solid 3px greenyellow;
+  border-radius: 25px;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
